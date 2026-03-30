@@ -1,0 +1,35 @@
+body
+{   background-color: lightcoral;
+}
+h1, h2 
+{   color: green;
+    text-align: center;
+    text-decoration: underline;
+}
+p, label, li, table 
+{    color: blue;
+}
+nav ul li:nth-child(2)
+{   color: yellow;
+}
+tbody tr:first-child
+{   color: yellow;
+}
+label:nth-of-type(1)
+{   color: yellow;
+}
+label:nth-of-type(3)
+{   color: yellow;
+}
+label:nth-of-type(5)
+{   color: yellow;
+}
+p::first-letter 
+{   font-size: 2em;
+}
+footer 
+{   font-size: 11px;
+}
+body 
+{   font-family: 'Poppins', sans-serif;
+}
